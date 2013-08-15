@@ -30,21 +30,16 @@ Unfortunately a script is not available. If you know how to script this using ba
 
 ## Explanation of Project Files
 
-##### Template Files:
-* `udthesis.sty` -  Main LaTeX file **to be edited with correct values**
-* `tcd-fancyhdr.sty` - Custom Fancy headers and footers for LaTeX
-* `apa-good.bst` - bibliographic style (bst) file
-* `udthesis.layout` - The LyX layout, describes Bibliography style among other things
+##### LyX Files (in `Thesis` folder):
 
-##### LyX Files:
-
-* `Thesis.lyx` - the main file that includes the chapters, bibliography etc (Generate the PDF from this)
+* `Thesis.lyx` - the main file that includes the chapters, bibliography etc (Generate the PDF from this). **First you should update your name, college etc**. Do this in Lyx: **Document** > **Settings** > **LaTeX Preamble**
 * `acknowledgements.lyx` - acknowledgements
 * `appendix*.lyx` - all the appendices
 * `chapter*.lyx` - all the chapters 
 * `thesis.bib` - all the bibliography references (open this with a BibTeX editor [I recommend [Bibdesk][] ])
 * `related_publications.lyx` - related publications
-* `images/uni_logo.eps` - the logo of your university (also can put all other images in this folder)
+* `images/uni_logo.png` - the logo of your university (also can put all other images in this folder)
+
 
 ## Credits
 * Neil Grogan ([Institute of Technology, Blanchardstown][ITB] [Dublin, Ireland] and [University College Dublin, Ireland][UCD])
