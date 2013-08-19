@@ -9,7 +9,7 @@ See [Sample PDF][PDF] for an example of the Thesis (see credits for real submitt
 ## Installation
 
 #### Installing on Mac OS X or Linux
-Simply run the script as described below. It will also ensure you have the correct tex distribution installed, if not it will advise to set it in `CSThesis.conf`
+Simply [download the zip file][RepoZip], extract it run the script as described below. It will also ensure you have the correct tex distribution installed, if not it will advise to set it in `CSThesis.conf`
 
 * **Make the install script executable**: `chmod +x install.sh`
 * **Run the script as superuser**: `sudo ./install.sh`
@@ -51,6 +51,7 @@ Unfortunately a script is not available. If you know how to script this using ba
 ## Copyright 
 Copyright &copy; 1994-2013 of the respective authors as detailed in the files. Free usage and modification is permitted as long as copyright notice is kept.
 
+[RepoZip]: https://github.com/dueyfinster/CSThesis/zipball/master/
 [Lyx]: http://www.lyx.org
 [PDF]: Sample.pdf
 [Eamonn Linehan]: http://www.dsg.cs.tcd.ie/~linehane/lyx/
