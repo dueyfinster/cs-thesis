@@ -11,7 +11,7 @@ See [Sample PDF][PDF] for an example of the Thesis (see credits for real submitt
 #### Installing on Mac OS X or Linux
 Simply run the script as described below. It will also ensure you have the correct tex distribution installed, if not it will advise to set it in `CSThesis.conf`
 
-* **Make the install executable**: `chmod +x install.sh`
+* **Make the install script executable**: `chmod +x install.sh`
 * **Run the script as superuser**: `sudo ./install.sh`
 * **Open Lyx** and click on **Tools**->**Reconfigure** and restart
 
