@@ -1,4 +1,6 @@
 #!/bin/bash
+# COPYRIGHT Neil Grogan (http://neil.grogan.ie) 2013
+# Free usage and modification is permitted as long as copyright notice is kept.
 # A script to install the appropriate styles for Thesis
 # 1. Make this script executable (with: chmod +x install.sh )
 # 2. Run this script as root
