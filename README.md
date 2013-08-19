@@ -16,6 +16,7 @@ Simply [download the zip file][RepoZip], extract it and run the script as descri
 * **Open Lyx** and click on **Tools**->**Reconfigure** and restart
 
 ###### What the Script does:
+
 # Downloads and installs Tex distribution
 # Copies the included template files to appropriate location
 # Refreshes the Tex Cache
