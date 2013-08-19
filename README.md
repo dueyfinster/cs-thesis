@@ -42,7 +42,7 @@ Unfortunately a script is not available. If you know how to script this using ba
 
 ## Credits
 * Neil Grogan ([Institute of Technology, Blanchardstown][ITB] [Dublin, Ireland] and [University College Dublin, Ireland][UCD])
-* [Eamonn Linehan] ([National University of Ireland, Maynooth][NUIM]) - [Thesis][ELThesis]
+* [Eamonn Linehan][] ([National University of Ireland, Maynooth][NUIM]) - [Thesis][ELThesis]
 * Jesus Bisbal ([University of Dublin, Trinity College][TCD]) - [Thesis][JBThesis]
 * [Dinesh Das][] ([University of Texas, Austin][UTA]) - [Thesis][DDThesis]
 * [Piet van Oostrum][] ([University of Utrecht, The Netherlands][UU])
