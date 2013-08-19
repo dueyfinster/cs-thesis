@@ -17,9 +17,9 @@ Simply [download the zip file][RepoZip], extract it and run the script as descri
 
 ###### What the Script does:
 
-# Downloads and installs Tex distribution
-# Copies the included template files to appropriate location
-# Refreshes the Tex Cache
+1. Downloads and installs Tex distribution
+2. Copies the included template files to appropriate location
+3. Refreshes the Tex Cache
 
 #### Installing on Windows
 Unfortunately a script is not available. If you know how to script this using batch files, please send a pull request! For now, the manual steps must be followed:
