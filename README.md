@@ -15,6 +15,11 @@ Simply [download the zip file][RepoZip], extract it and run the script as descri
 * **Run the script as superuser**: `sudo ./install.sh`
 * **Open Lyx** and click on **Tools**->**Reconfigure** and restart
 
+###### What the Script does:
+# Downloads and installs Tex distribution
+# Copies the included template files to appropriate location
+# Refreshes the Tex Cache
+
 #### Installing on Windows
 Unfortunately a script is not available. If you know how to script this using batch files, please send a pull request! For now, the manual steps must be followed:
 
