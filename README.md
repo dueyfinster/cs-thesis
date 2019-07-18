@@ -47,7 +47,7 @@ Unfortunately a script is not available. If you know how to script this using ba
 
 
 ## Credits
-* Neil Grogan ([Institute of Technology, Blanchardstown][ITB] [Dublin, Ireland] and [University College Dublin, Ireland][UCD])
+* Neil Grogan ([Technological University Dublin][TUD] and [University College Dublin][UCD])
 * [Eamonn Linehan][] ([National University of Ireland, Maynooth][NUIM]) - [Thesis][ELThesis]
 * Jesus Bisbal ([University of Dublin, Trinity College][TCD]) - [Thesis][JBThesis]
 * [Dinesh Das][] ([University of Texas, Austin][UTA]) - [Thesis][DDThesis]
@@ -61,7 +61,7 @@ Copyright &copy; 1994-2013 of the respective authors as detailed in the files. F
 [Lyx]: http://www.lyx.org
 [PDF]: Sample.pdf
 [Eamonn Linehan]: http://www.dsg.cs.tcd.ie/~linehane/lyx/
-[ITB]: http://www.itb.ie
+[TUD]: https://www.tudublin.ie/
 [UCD]: http://www.ucd.ie
 [TCD]: http://www.tcd.ie
 [NUIM]: http://www.nuim.ie
