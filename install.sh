@@ -23,14 +23,14 @@ function warn() { echo -e "$YELLOW$*$NORMAL"; }
 
 # Variables
 function linux_vars(){
-	: ${LATEX_PATH:="/usr/share/texmf-texlive"}
+	# : ${LATEX_PATH:="/usr/share/texmf-texlive"}
 	PATH_TO_LATEX_STYLES="$LATEX_PATH/tex/latex/base"
 	PATH_TO_BIBTEX_STYLES="$LATEX_PATH/bibtex/bst/"
 	PATH_TO_LYX_LAYOUTS="$HOME/.lyx/layouts"
 }
 
 function mac_vars(){
-	: ${LATEX_PATH:="/usr/local/texlive/2013basic/texmf-dist"}
+	# : ${LATEX_PATH:="/usr/local/texlive/2013basic/texmf-dist"}
 	PATH_TO_LATEX_STYLES="$LATEX_PATH/tex/latex/base"
 	PATH_TO_BIBTEX_STYLES="$LATEX_PATH/bibtex/bst"
 	PATH_TO_LYX_LAYOUTS="$HOME/Library/Application Support/LyX-2.0/layouts"
@@ -65,8 +65,8 @@ function main(){
 # INSTALL
 ##################
 function deb_install_packages(){
-	require apt-get
-	apt-get install texlive latexmk texlive-latex-extra texlive-bibtex-extra lyx 
+	require apt
+	apt -y install texlive latexmk texlive-latex-extra texlive-bibtex-extra lyx 
 }
 
 function yum_install_packages(){
@@ -105,6 +105,7 @@ function copy_bibtex_styles(){
 
 function copy_lyx_layouts(){
 	debug "Copying Lyx Layouts"
+	mkdir -p "$PATH_TO_LYX_LAYOUTS"
 	cp template/*.layout "$PATH_TO_LYX_LAYOUTS"
 }
 
@@ -121,10 +122,10 @@ function check_root(){
 }
 
 function check_tex_dir(){
-	if [ -d "$LATEX_BASE_PATH" ]; then
- 		debug "Using TEX installed at "$LATEX_BASE_PATH" found in path!"
+	if [ -d "$LATEX_PATH" ]; then
+ 		debug "Using TEX installed at "$LATEX_PATH" found in path!"
 	else
-      error ""$LATEX_BASE_PATH" is not in your path. Exiting"
+      error ""$LATEX_PATH" is not in your path. Exiting"
       exit 1
     fi
 }
